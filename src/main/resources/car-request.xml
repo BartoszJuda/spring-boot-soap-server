@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:cs="http://www.w3.org/2001/XMLSchema">
+<soapenv:Header/>
+    <soapenv:Body>
+        <cs:getCarRequest>
+            <cs:model>Mercedes SLS</cs:model>
+        </cs:getCarRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
